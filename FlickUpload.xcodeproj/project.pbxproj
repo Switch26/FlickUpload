@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7013E3951AE0578800AAEE7B /* HistoryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7013E3941AE0578800AAEE7B /* HistoryCollectionViewController.m */; };
+		7013E3981AE05E0100AAEE7B /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7013E3971AE05E0100AAEE7B /* MyCollectionViewCell.m */; };
+		7013E39B1AE152C400AAEE7B /* ImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7013E39A1AE152C400AAEE7B /* ImageDetailViewController.m */; };
+		7013E39E1AE16B8F00AAEE7B /* PhotoHistoryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7013E39D1AE16B8F00AAEE7B /* PhotoHistoryData.m */; };
+		7013E3A11AE170D400AAEE7B /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7013E3A01AE170D400AAEE7B /* PersistencyManager.m */; };
+		70CCF43A1AD43EC500F4D3CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CCF4391AD43EC500F4D3CD /* main.m */; };
+		70CCF43D1AD43EC500F4D3CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CCF43C1AD43EC500F4D3CD /* AppDelegate.m */; };
+		70CCF4401AD43EC500F4D3CD /* UploadNowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CCF43F1AD43EC500F4D3CD /* UploadNowViewController.m */; };
+		70CCF4431AD43EC500F4D3CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CCF4411AD43EC500F4D3CD /* Main.storyboard */; };
+		70CCF4451AD43EC500F4D3CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CCF4441AD43EC500F4D3CD /* Images.xcassets */; };
+		70CCF4481AD43EC500F4D3CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70CCF4461AD43EC500F4D3CD /* LaunchScreen.xib */; };
+		70CCF4541AD43EC500F4D3CD /* FlickUploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CCF4531AD43EC500F4D3CD /* FlickUploadTests.m */; };
+		70CCF45E1AD43F2600F4D3CD /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CCF45D1AD43F2600F4D3CD /* DropboxSDK.framework */; };
+		70CCF4601AD43F7700F4D3CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CCF45F1AD43F7700F4D3CD /* Security.framework */; };
+		70CCF4621AD43F8600F4D3CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CCF4611AD43F8600F4D3CD /* QuartzCore.framework */; };
+		70CCF4641AD44EED00F4D3CD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CCF4631AD44EED00F4D3CD /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70CCF44E1AD43EC500F4D3CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70CCF42C1AD43EC500F4D3CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70CCF4331AD43EC500F4D3CD;
+			remoteInfo = FlickUpload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7013E3931AE0578800AAEE7B /* HistoryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryCollectionViewController.h; sourceTree = "<group>"; };
+		7013E3941AE0578800AAEE7B /* HistoryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryCollectionViewController.m; sourceTree = "<group>"; };
+		7013E3961AE05E0100AAEE7B /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		7013E3971AE05E0100AAEE7B /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		7013E3991AE152C400AAEE7B /* ImageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDetailViewController.h; sourceTree = "<group>"; };
+		7013E39A1AE152C400AAEE7B /* ImageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDetailViewController.m; sourceTree = "<group>"; };
+		7013E39C1AE16B8F00AAEE7B /* PhotoHistoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoHistoryData.h; sourceTree = "<group>"; };
+		7013E39D1AE16B8F00AAEE7B /* PhotoHistoryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoHistoryData.m; sourceTree = "<group>"; };
+		7013E39F1AE170D400AAEE7B /* PersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistencyManager.h; sourceTree = "<group>"; };
+		7013E3A01AE170D400AAEE7B /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistencyManager.m; sourceTree = "<group>"; };
+		70CCF4341AD43EC500F4D3CD /* FlickUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CCF4381AD43EC500F4D3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CCF4391AD43EC500F4D3CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70CCF43B1AD43EC500F4D3CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70CCF43C1AD43EC500F4D3CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70CCF43E1AD43EC500F4D3CD /* UploadNowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UploadNowViewController.h; sourceTree = "<group>"; };
+		70CCF43F1AD43EC500F4D3CD /* UploadNowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadNowViewController.m; sourceTree = "<group>"; };
+		70CCF4421AD43EC500F4D3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70CCF4441AD43EC500F4D3CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70CCF4471AD43EC500F4D3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		70CCF44D1AD43EC500F4D3CD /* FlickUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CCF4521AD43EC500F4D3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CCF4531AD43EC500F4D3CD /* FlickUploadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickUploadTests.m; sourceTree = "<group>"; };
+		70CCF45D1AD43F2600F4D3CD /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		70CCF45F1AD43F7700F4D3CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		70CCF4611AD43F8600F4D3CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		70CCF4631AD44EED00F4D3CD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70CCF4311AD43EC500F4D3CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CCF4641AD44EED00F4D3CD /* MobileCoreServices.framework in Frameworks */,
+				70CCF4621AD43F8600F4D3CD /* QuartzCore.framework in Frameworks */,
+				70CCF4601AD43F7700F4D3CD /* Security.framework in Frameworks */,
+				70CCF45E1AD43F2600F4D3CD /* DropboxSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CCF44A1AD43EC500F4D3CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7013E3A21AE176B700AAEE7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7013E39C1AE16B8F00AAEE7B /* PhotoHistoryData.h */,
+				7013E39D1AE16B8F00AAEE7B /* PhotoHistoryData.m */,
+				7013E39F1AE170D400AAEE7B /* PersistencyManager.h */,
+				7013E3A01AE170D400AAEE7B /* PersistencyManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7013E3A31AE19B5000AAEE7B /* UploadNow */ = {
+			isa = PBXGroup;
+			children = (
+				70CCF43E1AD43EC500F4D3CD /* UploadNowViewController.h */,
+				70CCF43F1AD43EC500F4D3CD /* UploadNowViewController.m */,
+			);
+			name = UploadNow;
+			sourceTree = "<group>";
+		};
+		7013E3A41AE19B5F00AAEE7B /* History */ = {
+			isa = PBXGroup;
+			children = (
+				7013E3931AE0578800AAEE7B /* HistoryCollectionViewController.h */,
+				7013E3941AE0578800AAEE7B /* HistoryCollectionViewController.m */,
+				7013E3961AE05E0100AAEE7B /* MyCollectionViewCell.h */,
+				7013E3971AE05E0100AAEE7B /* MyCollectionViewCell.m */,
+				7013E3991AE152C400AAEE7B /* ImageDetailViewController.h */,
+				7013E39A1AE152C400AAEE7B /* ImageDetailViewController.m */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		70CCF42B1AD43EC500F4D3CD = {
+			isa = PBXGroup;
+			children = (
+				70CCF4361AD43EC500F4D3CD /* FlickUpload */,
+				70CCF4501AD43EC500F4D3CD /* FlickUploadTests */,
+				70CCF4351AD43EC500F4D3CD /* Products */,
+				70CCF4631AD44EED00F4D3CD /* MobileCoreServices.framework */,
+				70CCF4611AD43F8600F4D3CD /* QuartzCore.framework */,
+				70CCF45F1AD43F7700F4D3CD /* Security.framework */,
+				70CCF45D1AD43F2600F4D3CD /* DropboxSDK.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		70CCF4351AD43EC500F4D3CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70CCF4341AD43EC500F4D3CD /* FlickUpload.app */,
+				70CCF44D1AD43EC500F4D3CD /* FlickUploadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70CCF4361AD43EC500F4D3CD /* FlickUpload */ = {
+			isa = PBXGroup;
+			children = (
+				70CCF4411AD43EC500F4D3CD /* Main.storyboard */,
+				7013E3A21AE176B700AAEE7B /* Model */,
+				70CCF43B1AD43EC500F4D3CD /* AppDelegate.h */,
+				70CCF43C1AD43EC500F4D3CD /* AppDelegate.m */,
+				7013E3A31AE19B5000AAEE7B /* UploadNow */,
+				7013E3A41AE19B5F00AAEE7B /* History */,
+				70CCF4441AD43EC500F4D3CD /* Images.xcassets */,
+				70CCF4461AD43EC500F4D3CD /* LaunchScreen.xib */,
+				70CCF4371AD43EC500F4D3CD /* Supporting Files */,
+			);
+			path = FlickUpload;
+			sourceTree = "<group>";
+		};
+		70CCF4371AD43EC500F4D3CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70CCF4381AD43EC500F4D3CD /* Info.plist */,
+				70CCF4391AD43EC500F4D3CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70CCF4501AD43EC500F4D3CD /* FlickUploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				70CCF4531AD43EC500F4D3CD /* FlickUploadTests.m */,
+				70CCF4511AD43EC500F4D3CD /* Supporting Files */,
+			);
+			path = FlickUploadTests;
+			sourceTree = "<group>";
+		};
+		70CCF4511AD43EC500F4D3CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70CCF4521AD43EC500F4D3CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70CCF4331AD43EC500F4D3CD /* FlickUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CCF4571AD43EC500F4D3CD /* Build configuration list for PBXNativeTarget "FlickUpload" */;
+			buildPhases = (
+				70CCF4301AD43EC500F4D3CD /* Sources */,
+				70CCF4311AD43EC500F4D3CD /* Frameworks */,
+				70CCF4321AD43EC500F4D3CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlickUpload;
+			productName = FlickUpload;
+			productReference = 70CCF4341AD43EC500F4D3CD /* FlickUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70CCF44C1AD43EC500F4D3CD /* FlickUploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CCF45A1AD43EC500F4D3CD /* Build configuration list for PBXNativeTarget "FlickUploadTests" */;
+			buildPhases = (
+				70CCF4491AD43EC500F4D3CD /* Sources */,
+				70CCF44A1AD43EC500F4D3CD /* Frameworks */,
+				70CCF44B1AD43EC500F4D3CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70CCF44F1AD43EC500F4D3CD /* PBXTargetDependency */,
+			);
+			name = FlickUploadTests;
+			productName = FlickUploadTests;
+			productReference = 70CCF44D1AD43EC500F4D3CD /* FlickUploadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70CCF42C1AD43EC500F4D3CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Kartoshka;
+				TargetAttributes = {
+					70CCF4331AD43EC500F4D3CD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					70CCF44C1AD43EC500F4D3CD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 70CCF4331AD43EC500F4D3CD;
+					};
+				};
+			};
+			buildConfigurationList = 70CCF42F1AD43EC500F4D3CD /* Build configuration list for PBXProject "FlickUpload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70CCF42B1AD43EC500F4D3CD;
+			productRefGroup = 70CCF4351AD43EC500F4D3CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70CCF4331AD43EC500F4D3CD /* FlickUpload */,
+				70CCF44C1AD43EC500F4D3CD /* FlickUploadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70CCF4321AD43EC500F4D3CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CCF4431AD43EC500F4D3CD /* Main.storyboard in Resources */,
+				70CCF4481AD43EC500F4D3CD /* LaunchScreen.xib in Resources */,
+				70CCF4451AD43EC500F4D3CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CCF44B1AD43EC500F4D3CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70CCF4301AD43EC500F4D3CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013E3981AE05E0100AAEE7B /* MyCollectionViewCell.m in Sources */,
+				70CCF4401AD43EC500F4D3CD /* UploadNowViewController.m in Sources */,
+				70CCF43D1AD43EC500F4D3CD /* AppDelegate.m in Sources */,
+				7013E3A11AE170D400AAEE7B /* PersistencyManager.m in Sources */,
+				7013E3951AE0578800AAEE7B /* HistoryCollectionViewController.m in Sources */,
+				7013E39E1AE16B8F00AAEE7B /* PhotoHistoryData.m in Sources */,
+				70CCF43A1AD43EC500F4D3CD /* main.m in Sources */,
+				7013E39B1AE152C400AAEE7B /* ImageDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CCF4491AD43EC500F4D3CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CCF4541AD43EC500F4D3CD /* FlickUploadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70CCF44F1AD43EC500F4D3CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70CCF4331AD43EC500F4D3CD /* FlickUpload */;
+			targetProxy = 70CCF44E1AD43EC500F4D3CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70CCF4411AD43EC500F4D3CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CCF4421AD43EC500F4D3CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70CCF4461AD43EC500F4D3CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CCF4471AD43EC500F4D3CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70CCF4551AD43EC500F4D3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70CCF4561AD43EC500F4D3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70CCF4581AD43EC500F4D3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FlickUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70CCF4591AD43EC500F4D3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FlickUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70CCF45B1AD43EC500F4D3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlickUploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlickUpload.app/FlickUpload";
+			};
+			name = Debug;
+		};
+		70CCF45C1AD43EC500F4D3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlickUploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlickUpload.app/FlickUpload";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70CCF42F1AD43EC500F4D3CD /* Build configuration list for PBXProject "FlickUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CCF4551AD43EC500F4D3CD /* Debug */,
+				70CCF4561AD43EC500F4D3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CCF4571AD43EC500F4D3CD /* Build configuration list for PBXNativeTarget "FlickUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CCF4581AD43EC500F4D3CD /* Debug */,
+				70CCF4591AD43EC500F4D3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CCF45A1AD43EC500F4D3CD /* Build configuration list for PBXNativeTarget "FlickUploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CCF45B1AD43EC500F4D3CD /* Debug */,
+				70CCF45C1AD43EC500F4D3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70CCF42C1AD43EC500F4D3CD /* Project object */;
+}
